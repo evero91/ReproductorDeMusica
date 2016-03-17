@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF183891C9B1CDD000DD4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF183881C9B1CDD000DD4EB /* AppDelegate.swift */; };
+		3EF1838B1C9B1CDD000DD4EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1838A1C9B1CDD000DD4EB /* ViewController.swift */; };
+		3EF1838E1C9B1CDD000DD4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1838C1C9B1CDD000DD4EB /* Main.storyboard */; };
+		3EF183931C9B1CDD000DD4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF183911C9B1CDD000DD4EB /* LaunchScreen.storyboard */; };
+		3EF1839B1C9B46EF000DD4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1839A1C9B46EF000DD4EB /* Assets.xcassets */; };
+		3EF1839D1C9B47B8000DD4EB /* mgsCodec.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1839C1C9B47B8000DD4EB /* mgsCodec.mp3 */; };
+		3EF183A41C9B5CFF000DD4EB /* Here's To You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1839F1C9B5CFF000DD4EB /* Here's To You.mp3 */; };
+		3EF183A51C9B5CFF000DD4EB /* Elogia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF183A01C9B5CFF000DD4EB /* Elogia.mp3 */; };
+		3EF183A61C9B5CFF000DD4EB /* Sins of The Father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF183A11C9B5CFF000DD4EB /* Sins of The Father.mp3 */; };
+		3EF183A71C9B5CFF000DD4EB /* The Phantom Pain Nuclear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF183A21C9B5CFF000DD4EB /* The Phantom Pain Nuclear.mp3 */; };
+		3EF183A81C9B5CFF000DD4EB /* The Man Who Sold The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EF183A31C9B5CFF000DD4EB /* The Man Who Sold The World.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EF183851C9B1CDD000DD4EB /* ReproductorDeMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorDeMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF183881C9B1CDD000DD4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF1838A1C9B1CDD000DD4EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EF1838D1C9B1CDD000DD4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF183921C9B1CDD000DD4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF183941C9B1CDD000DD4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF1839A1C9B46EF000DD4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF1839C1C9B47B8000DD4EB /* mgsCodec.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mgsCodec.mp3; sourceTree = "<group>"; };
+		3EF1839F1C9B5CFF000DD4EB /* Here's To You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Here's To You.mp3"; sourceTree = "<group>"; };
+		3EF183A01C9B5CFF000DD4EB /* Elogia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elogia.mp3; sourceTree = "<group>"; };
+		3EF183A11C9B5CFF000DD4EB /* Sins of The Father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sins of The Father.mp3"; sourceTree = "<group>"; };
+		3EF183A21C9B5CFF000DD4EB /* The Phantom Pain Nuclear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Phantom Pain Nuclear.mp3"; sourceTree = "<group>"; };
+		3EF183A31C9B5CFF000DD4EB /* The Man Who Sold The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Man Who Sold The World.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF183821C9B1CDD000DD4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF1837C1C9B1CDD000DD4EB = {
+			isa = PBXGroup;
+			children = (
+				3EF183871C9B1CDD000DD4EB /* ReproductorDeMusica */,
+				3EF183861C9B1CDD000DD4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF183861C9B1CDD000DD4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF183851C9B1CDD000DD4EB /* ReproductorDeMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF183871C9B1CDD000DD4EB /* ReproductorDeMusica */ = {
+			isa = PBXGroup;
+			children = (
+				3EF183881C9B1CDD000DD4EB /* AppDelegate.swift */,
+				3EF1838A1C9B1CDD000DD4EB /* ViewController.swift */,
+				3EF1838C1C9B1CDD000DD4EB /* Main.storyboard */,
+				3EF183911C9B1CDD000DD4EB /* LaunchScreen.storyboard */,
+				3EF183941C9B1CDD000DD4EB /* Info.plist */,
+				3EF1839A1C9B46EF000DD4EB /* Assets.xcassets */,
+				3EF1839E1C9B4B87000DD4EB /* media */,
+			);
+			path = ReproductorDeMusica;
+			sourceTree = "<group>";
+		};
+		3EF1839E1C9B4B87000DD4EB /* media */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1839F1C9B5CFF000DD4EB /* Here's To You.mp3 */,
+				3EF183A01C9B5CFF000DD4EB /* Elogia.mp3 */,
+				3EF183A11C9B5CFF000DD4EB /* Sins of The Father.mp3 */,
+				3EF183A21C9B5CFF000DD4EB /* The Phantom Pain Nuclear.mp3 */,
+				3EF183A31C9B5CFF000DD4EB /* The Man Who Sold The World.mp3 */,
+				3EF1839C1C9B47B8000DD4EB /* mgsCodec.mp3 */,
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF183841C9B1CDD000DD4EB /* ReproductorDeMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF183971C9B1CDD000DD4EB /* Build configuration list for PBXNativeTarget "ReproductorDeMusica" */;
+			buildPhases = (
+				3EF183811C9B1CDD000DD4EB /* Sources */,
+				3EF183821C9B1CDD000DD4EB /* Frameworks */,
+				3EF183831C9B1CDD000DD4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorDeMusica;
+			productName = ReproductorDeMusica;
+			productReference = 3EF183851C9B1CDD000DD4EB /* ReproductorDeMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF1837D1C9B1CDD000DD4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Everardo Guevara Soto";
+				TargetAttributes = {
+					3EF183841C9B1CDD000DD4EB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EF183801C9B1CDD000DD4EB /* Build configuration list for PBXProject "ReproductorDeMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF1837C1C9B1CDD000DD4EB;
+			productRefGroup = 3EF183861C9B1CDD000DD4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF183841C9B1CDD000DD4EB /* ReproductorDeMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF183831C9B1CDD000DD4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF183A51C9B5CFF000DD4EB /* Elogia.mp3 in Resources */,
+				3EF183931C9B1CDD000DD4EB /* LaunchScreen.storyboard in Resources */,
+				3EF1839B1C9B46EF000DD4EB /* Assets.xcassets in Resources */,
+				3EF1839D1C9B47B8000DD4EB /* mgsCodec.mp3 in Resources */,
+				3EF1838E1C9B1CDD000DD4EB /* Main.storyboard in Resources */,
+				3EF183A71C9B5CFF000DD4EB /* The Phantom Pain Nuclear.mp3 in Resources */,
+				3EF183A61C9B5CFF000DD4EB /* Sins of The Father.mp3 in Resources */,
+				3EF183A41C9B5CFF000DD4EB /* Here's To You.mp3 in Resources */,
+				3EF183A81C9B5CFF000DD4EB /* The Man Who Sold The World.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF183811C9B1CDD000DD4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1838B1C9B1CDD000DD4EB /* ViewController.swift in Sources */,
+				3EF183891C9B1CDD000DD4EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EF1838C1C9B1CDD000DD4EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF1838D1C9B1CDD000DD4EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF183911C9B1CDD000DD4EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF183921C9B1CDD000DD4EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF183951C9B1CDD000DD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF183961C9B1CDD000DD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF183981C9B1CDD000DD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorDeMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evero91.ReproductorDeMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EF183991C9B1CDD000DD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorDeMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evero91.ReproductorDeMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF183801C9B1CDD000DD4EB /* Build configuration list for PBXProject "ReproductorDeMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF183951C9B1CDD000DD4EB /* Debug */,
+				3EF183961C9B1CDD000DD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF183971C9B1CDD000DD4EB /* Build configuration list for PBXNativeTarget "ReproductorDeMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF183981C9B1CDD000DD4EB /* Debug */,
+				3EF183991C9B1CDD000DD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF1837D1C9B1CDD000DD4EB /* Project object */;
+}
